@@ -24,7 +24,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Detalhes da tarefa
+                        <h4>Detalhes das tarefas
                             <a href="tarefa-create.php" class="btn btn-primary float-end">Adicionar Tarefa</a>
                         </h4>
                     </div>
