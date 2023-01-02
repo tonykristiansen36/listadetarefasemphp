@@ -11,13 +11,13 @@ if(isset($_POST['concluir_tarefa']))
 
     if($query_run)
     {
-        $_SESSION['message'] = "Aluno excluido com sucesso";
+        $_SESSION['message'] = "Tarefa excluída com sucesso";
         header("Location: index.php");
         exit(0);
     }
     else
     {
-        $_SESSION['message'] = "Não foi possivel excluir o aluno";
+        $_SESSION['message'] = "Não foi possivel excluir a tarefa";
         header("Location: index.php");
         exit(0);
     }
