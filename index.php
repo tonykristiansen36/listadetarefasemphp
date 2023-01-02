@@ -54,7 +54,7 @@
                                                     <a href="tarefa-view.php?id=<?= $tarefa['id']; ?>" class="btn btn-info btn-sm">Visualizar</a>
                                                     <a href="tarefa-edit.php?id=<?= $tarefa['id']; ?>" class="btn btn-success btn-sm">Editar</a>
                                                     <form action="code.php" method="POST" class="d-inline">
-                                                        <button type="submit" name="concluir_tarefa" value="<?=$tarefa['id'];?>" class="btn btn-danger btn-sm">Deletar</button>
+                                                        <button type="submit" name="concluir_tarefa" value="<?=$tarefa['id'];?>" class="btn btn-danger btn-sm">Concluir</button>
                                                     </form>
                                                 </td>
                                             </tr>
