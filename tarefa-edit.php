@@ -47,7 +47,7 @@ require 'dbcon.php';
 
                                     <div class="mb-3">
                                         <label>Nome</label>
-                                        <input type="text" name="name" value="<?=$tarefa['descricao'];?>" class="form-control">
+                                        <input type="text" name="descricao" value="<?=$tarefa['descricao'];?>" class="form-control">
                                     </div>
                                     <div class="mb-3">
                                         <button type="submit" name="atualizar_tarefa" class="btn btn-primary">
